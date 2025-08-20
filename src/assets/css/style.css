@@ -1208,3 +1208,19 @@ section .container {
 .headerlayer{
   border-radius: 5%;
 }
+
+.footer-text {
+  font-size: smaller;
+  color: #15bb62;
+}
+
+.contact-text{
+  color:#15bb62;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.contact-icons{
+  color: #15bb62;
+  cursor: pointer;
+}

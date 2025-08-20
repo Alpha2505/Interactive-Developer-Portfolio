@@ -24,10 +24,13 @@ export class ContactComponent implements OnInit {
   showinterestssection: boolean = false;
   linkedURL : string = appconstants.LinkedinprofileURL;
   githubURL : string = appconstants.GithubURL;
+  emailAddress : string = appconstants.Email;
+  email : string = "";
 
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.email = this.emailAddress.split(':')[1]; 
   }
 
   opentab(event:any){
