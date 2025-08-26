@@ -61,7 +61,7 @@ export class PortfolioDetailsComponent implements OnInit {
         this.category = 'Web Application';
         this.type  = 'Personal Project';
         this.date = 'April, 2025';
-        this.URL = 'https://github.com/Alpha2505/PMS/tree/master';
+        this.URL = 'https://github.com/Alpha2505/Enterprise-Project-Management-Tool/tree/master';
         this.description = "Enterprise Project Management Tool is a multi-role project management system for supervisors, managers, and team members, featuring task assignment, milestone tracking, and time logging. Built with a normalized MySQL database schema and integrated with a Java GUI, ensuring transactional integrity, concurrency control, and seamless multi-user collaboration."
        }
       else{
