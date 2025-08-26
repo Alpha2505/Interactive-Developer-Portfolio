@@ -32,33 +32,6 @@ The platform is designed to be modular and production-grade, with dynamic projec
 
 ## 📂 Project Structure
 
-```
-Interactive-Developer-Portfolio/
-├── src/
-│   ├── app/
-│   │   ├── Constants/
-│   │   │   └── app-constants.ts
-│   │   ├── home/
-│   │   │   ├── footer/
-│   │   │   ├── nav-tabs/
-│   │   │   │   ├── about/
-│   │   │   │   ├── contact/
-│   │   │   │   ├── portfolio/
-│   │   │   │   ├── resume/
-│   │   │   │   └── services/
-│   │   │   ├── portfolio-details/
-│   │   │   └── home.component.*
-│   │   ├── app-routing.module.ts
-│   │   ├── app.component.*
-│   │   └── app.module.ts
-│   ├── assets/
-│   ├── environments/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── main.ts
-│   └── polyfills.ts
-├── angular.json
-├── package.json
-└── README.md
-```
+<img width="396" height="771" alt="image" src="https://github.com/user-attachments/assets/f9bf3180-991e-45f4-b360-029f228f575b" />
+
 
