@@ -1,44 +1,24 @@
-# MyPortfolio
+# Interactive Developer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+An interactive and responsive developer portfolio built with **Angular** and **Bootstrap**, showcasing projects, publications, and technical skills.  
+The platform is designed to be modular and production-grade, with dynamic project filtering, reusable components, and cross-device compatibility.
 
-## Development server
+## 🚀 Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- **Dynamic Project Filtering** – explore projects interactively by category or technology.
+- **Reusable Angular Components** – modular structure for scalability and maintainability.
+- **Responsive Design** – optimized for desktops, tablets, and mobile devices using Bootstrap.
+- **Routing Support** – seamless navigation between About, Skills, Projects, and Contact sections.
+- **Deployment Ready** – hosted on GitHub Pages for easy public access.
 
-## Code scaffolding
+## 🛠️ Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend:** Angular, TypeScript, HTML, CSS, Bootstrap  
+- **Version Control & Deployment:** Git, GitHub Pages  
 
-## Build
+## 📸 Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+*(Add screenshots or GIFs here once you have them, e.g., homepage, projects page, mobile view.)*
 
-## Running unit tests
+## 📂 Project Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## Note - To publish the project to GitHub pages 
-
-Option 1
-
-`$ npm i angular-cli-ghpages --save-dev`, 
-`$ ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/"`, 
-`$ npx angular-cli-ghpages --dir=dist/Project-name`.
-
-
-Option 2
-
-`$ git checkout -b gh-pages`, 
-`$ git push origin gh-pages`, 
-`$ npm install -g angular-cli-ghpages`,  
-`$ ng build --prod --base-href https://[username].github.io/[repo]/`, 
-`$ ngh --dir=dist/[project-name]`.
