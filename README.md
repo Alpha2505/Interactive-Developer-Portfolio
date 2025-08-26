@@ -32,31 +32,33 @@ The platform is designed to be modular and production-grade, with dynamic projec
 
 ## 📂 Project Structure
 
+```
 Interactive-Developer-Portfolio/
 ├── src/
 │   ├── app/
 │   │   ├── Constants/
-│   │   │   └── app-constants.ts     # Application constants
+│   │   │   └── app-constants.ts
 │   │   ├── home/
-│   │   │   ├── footer/              # Footer component
-│   │   │   ├── nav-tabs/            # Navigation components
-│   │   │   │   ├── about/           # About section
-│   │   │   │   ├── contact/         # Contact section
-│   │   │   │   ├── portfolio/       # Portfolio section
-│   │   │   │   ├── resume/          # Resume section
-│   │   │   │   └── services/        # Services section
-│   │   │   ├── portfolio-details/   # Detailed portfolio views
-│   │   │   └── home.component.*     # Main home component
-│   │   ├── app-routing.module.ts    # Routing configuration
-│   │   ├── app.component.*          # Root component
-│   │   └── app.module.ts            # Main app module
-│   ├── assets/                      # Static assets
-│   ├── environments/                # Environment configurations
-│   ├── favicon.ico                  # Site favicon
-│   ├── index.html                   # Main HTML file
-│   ├── main.ts                      # Bootstrap file
-│   └── polyfills.ts                 # Browser compatibility
-├── angular.json                     # Angular configuration
-├── package.json                     # Dependencies and scripts
-└── README.md                        # This file
+│   │   │   ├── footer/
+│   │   │   ├── nav-tabs/
+│   │   │   │   ├── about/
+│   │   │   │   ├── contact/
+│   │   │   │   ├── portfolio/
+│   │   │   │   ├── resume/
+│   │   │   │   └── services/
+│   │   │   ├── portfolio-details/
+│   │   │   └── home.component.*
+│   │   ├── app-routing.module.ts
+│   │   ├── app.component.*
+│   │   └── app.module.ts
+│   ├── assets/
+│   ├── environments/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── main.ts
+│   └── polyfills.ts
+├── angular.json
+├── package.json
+└── README.md
+```
 
