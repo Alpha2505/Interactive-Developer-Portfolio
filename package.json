@@ -1,12 +1,14 @@
 {
-  "name": "my-portfolio",
+  "name": "Interactive-Developer-Portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:gh-pages": "ng build --prod --base-href \"https://alpha2505.github.io/Interactive-Developer-Portfolio/\"",
+    "deploy": "npx angular-cli-ghpages --dir=dist/Interactive-Developer-Portfolio"
   },
   "private": true,
   "dependencies": {
